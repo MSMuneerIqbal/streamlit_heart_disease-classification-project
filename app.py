@@ -60,7 +60,7 @@ def main():
     st.markdown('<p class="title">AI-Powered Heart Disease Diagnosis</p>', unsafe_allow_html=True)
 
     # Display the heart image using st.image
-    st.image('./heart-img2.jpg', caption="Heart Health", use_column_width=True)
+    st.image('./heart-img2.jpg', caption="Heart Health", use_container_width=True)
 
     # Move input fields to the sidebar
     st.sidebar.header('Input Features')
